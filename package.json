@@ -1,0 +1,33 @@
+{
+  "name": "mcp-graviton",
+  "version": "1.0.0",
+  "description": "An MCP server enabling Claude Code to seamlessly spawn and orchestrate a fleet of Google Antigravity worker agents.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "cli": "node dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkfujinami/mcp-graviton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jkfujinami/mcp-graviton/issues"
+  },
+  "homepage": "https://github.com/jkfujinami/mcp-graviton#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "antigravity-client": "file:../antigravity-client"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.0",
+    "tsx": "^4.22.2",
+    "typescript": "^6.0.3"
+  }
+}
