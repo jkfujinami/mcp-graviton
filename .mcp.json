@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "graviton": {
+      "command": "node",
+      "args": ["/Users/fujinami/github/mcp-graviton/dist/index.js"]
+    }
+  }
+}
